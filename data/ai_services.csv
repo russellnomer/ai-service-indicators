@@ -184,3 +184,9 @@ auth.runwayml.com,Runway,Runway,Creative,auth,0,,Role inferred from hostname
 runwayml.com,Runway,Runway,Creative,web,0,,Role inferred from hostname
 status.runwayml.com,Runway,Runway,Creative,web,0,,Role inferred from hostname
 *.runwayml.com,Runway,Runway,Creative,other,0,,Role inferred from hostname; Unlisted subdomain (e.g. v.); review
+muse.ai,Muse,Meta,Chat assistant,app,1,https://www.meta.com/technologies/muse/,Meta AI assistant; muse.ai serves the product
+www.muse.ai,Muse,Meta,Chat assistant,web,0,https://www.meta.com/technologies/muse/,Redirects to the product
+meta.ai,Muse,Meta,Chat assistant,app,1,https://www.meta.com/technologies/muse/,Role inferred from hostname; Product apex
+www.meta.ai,Muse,Meta,Chat assistant,web,0,https://www.meta.com/technologies/muse/,Role inferred from hostname
+*.muse.ai,Muse,Meta,Chat assistant,other,0,,Unlisted subdomain; review before counting
+*.meta.ai,Muse,Meta,Chat assistant,other,0,,Unlisted subdomain; review before counting
