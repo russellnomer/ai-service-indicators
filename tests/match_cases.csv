@@ -1,0 +1,73 @@
+hostname,expected_service,expected_role
+chatgpt.com,ChatGPT,app
+ws.chatgpt.com,ChatGPT,app
+ab.chatgpt.com,ChatGPT,telemetry
+learn.chatgpt.com,ChatGPT,web
+codex-cloud-backend.chatgpt.com,Codex,agent
+newthing.chatgpt.com,ChatGPT,other
+ios.chat.openai.com,ChatGPT,app
+fakechatgpt.com,,
+chatgpt.com.evil.example,,
+api.openai.com,OpenAI API,api
+us.api.openai.com,OpenAI API,api
+platform.openai.com,OpenAI API,portal
+cdn.platform.openai.com,OpenAI API,cdn
+auth.openai.com,OpenAI,auth
+help.openai.com,OpenAI,web
+url1234.email.openai.com,OpenAI,web
+bzr.openai.com,OpenAI,other
+persistent.oaistatic.com,ChatGPT,cdn
+updates.oaistatic.com,ChatGPT,download
+sdmntpreastus.oaiusercontent.com,ChatGPT,cdn
+mcp-app-abc.web-sandbox.oaiusercontent.com,ChatGPT,app
+ios.chat.openai.com.cdn.cloudflare.net,OpenAI,cdn
+claude.ai,Claude,app
+downloads.claude.ai,Claude,download
+pivot.claude.ai,Claude,other
+api.anthropic.com,Anthropic API,api
+mcp-proxy.anthropic.com,Claude,agent
+console.anthropic.com,Anthropic API,portal
+a-api.anthropic.com,Anthropic,telemetry
+s-cdn.anthropic.com,Anthropic,cdn
+gemini.google.com,Gemini,app
+generativelanguage.googleapis.com,Gemini API,api
+notebook.google.com,NotebookLM,app
+us-central1-aiplatform.googleapis.com,Google Vertex AI,api
+copilot.microsoft.com,Copilot (consumer),app
+ms-sso.copilot.com,Copilot (consumer),auth
+copilot.cloud.microsoft,Microsoft 365 Copilot,app
+myresource.openai.azure.com,Azure OpenAI / Foundry,api
+www.perplexity.ai,Perplexity,app
+api.perplexity.ai,Perplexity API,api
+count.perplexity.ai,Perplexity,telemetry
+pplx-browser.perplexity.ai,Comet,app
+edge.perplexity.ai,Perplexity,other
+chat.mistral.ai,Le Chat,app
+api.mistral.ai,Mistral API,api
+chat.deepseek.com,DeepSeek,app
+hif-dliq.deepseek.com,DeepSeek,other
+grok.com,Grok,app
+cdn.grok.com,Grok,cdn
+api.x.ai,xAI API,api
+x.com,,
+openrouter.ai,OpenRouter,api
+clerk.openrouter.ai,OpenRouter,auth
+api.individual.githubcopilot.com,GitHub Copilot,app
+proxy.business.githubcopilot.com,GitHub Copilot,app
+telemetry.individual.githubcopilot.com,GitHub Copilot,telemetry
+exp.individual.githubcopilot.com,GitHub Copilot,telemetry
+copilot-proxy.githubusercontent.com,GitHub Copilot,app
+api.mcp.github.com,GitHub Copilot,agent
+raw.githubusercontent.com,,
+github.com,,
+api2.cursor.sh,Cursor,app
+agentn.api5.cursor.sh,Cursor,agent
+metrics.cursor.sh,Cursor,telemetry
+bedrock-runtime.us-east-1.amazonaws.com,Amazon Bedrock,api
+s3.amazonaws.com,,
+api.together.ai,Together AI,api
+mcp.consensus.app,Consensus,agent
+cdn.scite.ai,Scite,cdn
+www.midjourney.com,Midjourney,app
+app.runwayml.com,Runway,app
+status.runwayml.com,Runway,web

@@ -1,0 +1,43 @@
+name: New or changed hostname
+description: Report an AI service hostname that is missing, wrong or retired
+labels: [data]
+body:
+  - type: input
+    id: hostname
+    attributes:
+      label: Hostname(s)
+      placeholder: api.example-ai.com
+    validations:
+      required: true
+  - type: input
+    id: service
+    attributes:
+      label: Service and vendor
+      placeholder: Example AI API (Example Inc.)
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Role (see README)
+      options:
+        - app (interactive product; counts as usage)
+        - api (programmatic inference; counts as usage)
+        - agent (coding agent / connector / MCP; counts as usage)
+        - portal (developer console)
+        - web (website / docs / help / status)
+        - auth (sign-in)
+        - cdn (static assets / user content)
+        - telemetry (analytics / experiments)
+        - download (installers / updates)
+        - Not sure
+        - Existing row is wrong or retired
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Vendor documentation link, or what the client was doing when you saw it. Do not paste internal IPs, hostnames, usernames or raw logs.
+    validations:
+      required: true
